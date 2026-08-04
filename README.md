@@ -27,3 +27,7 @@ If a customer uses 320 units, the calculated bill is:
 - Next 100 units: Rs. 520.00
 - Remaining 70 units: Rs. 455.00
 - Total: Rs. 1,550.00
+
+
+## Screenshot
+<img width="1598" height="1032" alt="image" src="https://github.com/user-attachments/assets/c465f257-c6cf-48c8-9a91-6c37b199dfc4" />
