@@ -2,11 +2,37 @@
 
 A responsive JSP/Servlet web application that calculates an electricity bill using the tariff slabs you requested.
 
+## Aim
+ To design and develop a responsive website to calculate Electricity bill with Servlet and JSP. Condition for first 50 units – Rs. 3.50/unit, for next 100 units – Rs. 4.00/unit, for next 100 units – Rs. 5.20/unit and for units above 250 – Rs. 6.50/unit. You can make the use of bootstrap as well as jQuery
+
+## Tools Used
+Java(JDK) - 26
+Servlet API - version 4.0
+Apache Tomcat - version 9.0
+JSP - version 2.3
+jQuery - version 3.7.1
+
 ## Features
 - Responsive Bootstrap UI
 - jQuery-based client-side validation
 - Server-side calculation in a Java Servlet
 - Result breakdown shown on the same page
+
+## Folder Structure
+Electricity-bill_WT_Lab3-main/
+├── build.bat                          # compiles the servlet
+├── README.md
+├── src/
+│   └── com/
+│       └── example/
+│           └── ElectricityBillServlet.java   # bill calculation logic
+└── web/
+    ├── index.jsp                      # form + result page
+    └── WEB-INF/
+        └── web.xml                    # servlet mapping
+
+## Workflow
+
 
 ## Run locally
 1. Install Apache Tomcat 9+.
