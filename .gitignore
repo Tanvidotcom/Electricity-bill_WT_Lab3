@@ -1,0 +1,22 @@
+# Java class files
+*.class
+
+# Eclipse/IntelliJ/VS Code files
+*.iml
+.idea/
+.vscode/
+
+# Build folders
+build/
+target/
+
+# Tomcat output
+web/WEB-INF/classes/
+web/WEB-INF/lib/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
